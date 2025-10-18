@@ -10,12 +10,7 @@
  * - Declare the taylor_sine function
  */
 
-/* 
- * Calculate sine using Taylor series approximation
- * x: input value in radians
- * n: number of terms in the series
- * Returns: approximation of sin(x)
- */
+
  double taylor_sine(double x, int n);
 
 #endif
