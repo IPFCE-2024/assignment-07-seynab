@@ -79,7 +79,7 @@ void print(stack *s)
 {
     /* pre-condition: true */
     /* post-condition: prints all items in the stack */
-    printf("Stack indholf: ");
+    printf("Stack indhold: ");
     node *current = s->head;
 
     if(current == NULL){
