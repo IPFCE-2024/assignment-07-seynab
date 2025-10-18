@@ -52,7 +52,6 @@ int pop(stack *s)
   node *temp = s->head;
   int value = temp->data;
   s->head = s->head->next;
-  free(temp);
 
   return value; // placeholder - replace with actual implementation
 }
